@@ -1,0 +1,190 @@
+/* The styles for the elements throughout the page */
+* {
+    font-family: sans-serif;
+}
+html {
+    background-image: url('../images/misc/guitarWallPaper.jpg');
+    background-repeat: repeat;
+    padding: 30px 0;
+}
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    width: 800px;
+    background-color: white;
+    box-shadow: 0px 5px 5px 5px lightcoral;
+    border: 2px solid black;
+    margin: 0 auto;
+    padding: 0;
+}
+a {
+    font-weight: bold;
+}
+a.link {
+    color: #9b59b6;
+}
+a.visited {
+    color: #12395b;
+}
+a:hover, a:focus {
+    color: #2880b9;
+}
+
+
+/* The styles for the elements in the header */
+header {    
+    border-bottom: 2px solid black;
+    background-image: linear-gradient(45deg, white 0%, salmon 75%, black 100%);
+}
+header img.guitar-logo {
+    float: left;
+    width: 65px;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-bottom: 1em;
+    padding-right: 2.5em;
+}
+header h2 {
+    font-size: 200%;
+    margin-top: 0;
+    padding-top: 0.5em;
+    margin-bottom: 0;
+}
+header h3 {
+    font-size: 125%;
+    text-indent: 50px;
+    margin-top: 0;
+}
+header a img {
+    float: right;
+    margin-right: 50px;
+    margin-top: 25px;
+}
+
+/* The styles for the elements in the navigation menu */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+nav ul li {
+    float: left;
+    position: relative;
+}
+nav ul li a {
+    display: block;
+    width: 133.3px;
+    text-align: center;
+    padding: 1em 0;
+    text-decoration: none;
+    background-color: lightcoral;
+    font-weight: bold;
+}
+nav ul li:hover > a {
+    background-color: lightblue;
+}
+nav ul li a:hover {
+    background-color: lightblue;
+}
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+nav ul ul li {
+    float:none;
+}
+nav ul li:hover > ul {
+    display: block;
+}
+nav > ul::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/* The styles for the elements in the main */
+main {
+    border-top: 2px solid black;
+}
+
+/* The styles for the elements in the sidebar */
+aside {
+    float: left;
+    width: 160px;
+    padding: 20px 0;
+}
+aside ul {
+    line-height: 150%;
+    list-style-type: none;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+aside ul li {
+    padding: 1em;
+}
+aside ul li a {
+    display: block;
+    width: 160px;
+    text-align: center;
+    padding: 1em 0;
+    text-decoration: none;
+    background-color: lightcoral;
+    font-weight: bold;
+    border: 2px solid black;
+}
+aside ul li a:hover {
+    background-color: lightblue;
+}
+
+/* The styles for the elements in the section */
+section {
+    width: 580px;
+    padding: 20px 25px 25px 25px;
+    float: right;
+}
+section h1::first-letter {
+    font-size: 200%;
+}
+section h1 {
+    font-size: 150%;
+    margin-bottom: 0.5em;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
+section h2 {
+    font-size: 125%;
+    margin-top: 0.8em;
+    margin-bottom: 0.5em;
+}
+section img {
+    width: 150px;
+}
+section h3 {
+    font-size: 110%;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+section p {
+    margin-bottom: 0.5em;
+}
+section ul {
+    line-height: 1.5;
+}
+
+/* The styles for the elements in the footer */
+footer {
+    text-align: center;
+    font-size: 90%;
+    border-top: 2px solid black;
+    clear: both;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-image: linear-gradient(45deg, black 0%, salmon 25%, white 100%);
+}
+footer span {
+    float: right;
+    padding-right: 2em;
+}

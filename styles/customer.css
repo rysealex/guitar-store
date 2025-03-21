@@ -1,0 +1,98 @@
+body {
+    width: 1200px;
+}
+section {
+    width: 980px;
+    margin-top: 16px;
+}
+nav ul li a {
+    width: 200px;
+}
+/* customer info styling */
+.customer-info {
+    border: 3px solid black;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.customer-info input {
+    width: 300px;
+}
+.customer-info span {
+    color: red;
+    margin-left: 40px;
+}
+#fname, #lname {
+    margin-left: 130px;
+}
+#email {
+    margin-left: 165px;
+}
+#password {
+    margin-left: 135px;
+}
+#confirm {
+    margin-left: 75px;
+}
+#update-customer-info {
+    width: auto;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+/* billing address styling */
+.billing-address {
+    float: left;
+    border: 3px solid black;
+    padding: 10px;
+}
+.billing-address input {
+    width: 300px;
+}
+#billing-address1, #billing-address2 {
+    margin-left: 40px;
+}
+#billing-city {
+    margin-left: 115px;
+}
+#billing-state {
+    margin-left: 360px;
+}
+#billing-zip {
+    margin-left: 75px;
+}
+#billing-phone {
+    margin-left: 95px;
+}
+#update-billing-address {
+    width: auto;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+/* shipping address styling */
+.shipping-address {
+    float: right;
+    border: 3px solid black;
+    padding: 10px;
+}
+.shipping-address input {
+    width: 300px;
+}
+#shipping-address1, #shipping-address2 {
+    margin-left: 40px;
+}
+#shipping-city {
+    margin-left: 115px;
+}
+#shipping-state {
+    margin-left: 360px;
+}
+#shipping-zip {
+    margin-left: 75px;
+}
+#shipping-phone {
+    margin-left: 95px;
+}
+#update-shipping-address {
+    width: auto;
+    margin-left: 50px;
+    margin-top: 10px;
+}

@@ -1,0 +1,5 @@
+/* The styles for the elements in the shipping page */
+h2, p {
+    margin-top: 3em;
+    margin-bottom: 3em;
+}

@@ -1,0 +1,28 @@
+/* Styles for the customer login page */
+section {
+    width: 400px;
+    float: left;
+    margin-left: 1em;
+    display: flex;
+}
+section label {
+    display: inline;
+}
+section p {
+    padding-top: 2em;
+    padding-left: 1em;
+}
+form {
+    float: right;
+}
+#email {
+    width: 200px;
+}
+#login {
+    margin-right: 300px;
+    margin-top: 2em;
+}
+#cancel {
+    margin-right: 109px;
+    margin-top: 98px;
+}

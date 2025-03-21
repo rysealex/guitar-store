@@ -1,0 +1,24 @@
+/* The styles for the elements throughout the products page */
+section {
+    padding: 2em 0 2em 0;   
+}
+section h1:first-letter {
+    font-size: 100%;
+}
+form p {
+    display: inline;
+}
+table {
+    border: 1px solid black;
+    margin-bottom: 2em;
+    border-collapse: collapse;
+}
+td, th {
+    text-align: left;
+    border-right: 1px black dashed;
+    border-bottom: 1px black dashed;
+    padding: .2em .5em .2em .5em;
+}
+.price {
+    text-align: right;
+}

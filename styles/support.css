@@ -1,0 +1,41 @@
+/* The styles for the elements in the support page */
+section {
+    padding: 2em 0 2em 0;   
+}
+section h1:first-letter {
+    font-size: 100%;
+}
+.ui-accordion .ui-accordion-content {
+    margin: 0 !important;
+}
+.ui-accordion .ui-accordion-header {
+    padding-left: 2em !important;
+}
+.ui-helper-reset {
+    margin-right: 2em !important;
+}
+/*.accordion h2 {
+    padding: .25em 0 .25em 25px;
+    cursor: pointer;
+    background: url(../images/plus.png) no-repeat left center;
+}*/
+/*section h2.minus {
+    background: url(../images/minus.png) no-repeat left center;
+}*/
+/*section div div {
+    padding-left: 25px;
+    display: none;
+}
+section div div.open {
+    display: block;
+}
+section a {
+    color: black;
+    text-decoration: none; 
+}
+section a:visited {
+    color: #9b59b6;
+}
+section a:focus, a:hover { 
+	color: blue; 
+}*/
